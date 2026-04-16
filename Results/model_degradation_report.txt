@@ -1,0 +1,4 @@
+Model Evaluation Report (Temporal Validation)
+Validation (Clean) Accuracy: 0.9111
+Drifted Accuracy:            0.7213
+Accuracy Collapse:           0.1898
