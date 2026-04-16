@@ -73,7 +73,7 @@ Contains **hidden labels for drift evaluation**
 
 ---
 
-## 📊 What it contains:
+##  What it contains:
 
 | Column     | Description               |
 | ---------- | ------------------------- |
@@ -129,7 +129,7 @@ Processed dataset used by ML pipeline
 
 ---
 
-# 📊 Dataset Characteristics
+#  Dataset Characteristics
 
 | Property      | Value                          |
 | ------------- | ------------------------------ |
@@ -214,7 +214,7 @@ This dataset allows you to:
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 * Add real-world data integration
 * Increase dataset size
