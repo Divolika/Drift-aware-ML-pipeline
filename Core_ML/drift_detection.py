@@ -3,7 +3,7 @@ import pandas as pd
 import json
 
 def detect_drift():
-    print("[+] Running ADWIN Drift Detection (Final Refinement)...")
+    print("[+] Running ADWIN Drift Detection...")
     df = pd.read_csv("ML/preprocessed_data.csv")
     
     # 1. Initialize Detectors
@@ -18,7 +18,7 @@ def detect_drift():
     
     # 2. Iterate Stream
     for i, row in df.iterrows():
-        # FINAL SAFETY: Skip first 1500 rows to ensure complete stability
+        
         if i < 1500:
             continue
             
